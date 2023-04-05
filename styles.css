@@ -22,4 +22,13 @@ header {
   justify-content: space-between;
   background-color: var(--header-background-color);
   color: var(--text-color);
+  align-items: center;
+  padding: 2rem;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+  font-size: 1.2rem;
 }
