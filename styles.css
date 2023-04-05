@@ -75,4 +75,5 @@ form button {
   border: none;
   background-color: #489a8a;
   color: var(--text-color);
+  font-size: 1rem;
 }
