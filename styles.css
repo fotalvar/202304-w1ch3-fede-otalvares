@@ -79,14 +79,6 @@ form button {
   cursor: pointer;
 }
 
-.icon::before {
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
 .fa-circle-minus::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -94,7 +86,7 @@ form button {
 }
 
 .add-remove-button {
-  color: #ffffff;
+  color: var(--text-color);
   background: none;
   border: none;
   font-size: 2rem;
